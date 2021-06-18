@@ -1,0 +1,20 @@
+<section class="child-one-container">
+  <mat-card class="home-card">
+    <mat-card-content class="child-navigation-container">
+      <ng-container *ngFor="let search of functions">
+        <a
+          mat-raised-button
+          class="search-button"
+          color="primary"
+          (click)="showSearchInput(search.searchType)"
+        >
+          {{search.text}}
+        </a>
+      </ng-container>
+      <mat-form-field class="example-full-width" *ngIf="showInput">
+        <mat-label>Search for {{searchType}}s</mat-label>
+        <input matInput (keydown.enter)="search(searchValue)" [(ngModel)]="searchValue">
+      </mat-form-field>
+    </mat-card-content>
+  </mat-card>
+</section>

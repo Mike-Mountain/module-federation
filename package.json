@@ -8,6 +8,7 @@
     "nx": "nx",
     "start": "ng serve",
     "dash:dev": "ng serve dashboard -c dev",
+    "child-one:dev": "ng serve child-app-one -c dev",
     "build": "ng build",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",

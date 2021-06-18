@@ -1,0 +1,22 @@
+.child-one-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.home-card {
+  width: 45%;
+}
+
+.child-navigation-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-button {
+  width: 16rem;
+  margin: .75rem 0 !important;
+}
