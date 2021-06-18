@@ -5,7 +5,7 @@
       "projectType": "application",
       "root": "apps/dashboard",
       "sourceRoot": "apps/dashboard/src",
-      "prefix": "module-federation",
+      "prefix": "dash",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -165,6 +165,9 @@
       "unitTestRunner": "jest"
     },
     "@nrwl/angular:component": {
+      "style": "scss"
+    },
+    "@schematics/angular:component": {
       "style": "scss"
     }
   },
