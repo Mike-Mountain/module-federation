@@ -1,1 +1,20 @@
-<p>search-results works!</p>
+<section class="search-results-container">
+  <mat-card class="results-card">
+    <mat-card-content class="search-results">
+      <div class="flex-center">
+        <mat-form-field class="search-bar">
+          <mat-label>Search for {{searchType}}s</mat-label>
+          <input matInput (keydown.enter)="search(searchValue)" [(ngModel)]="searchValue">
+        </mat-form-field>
+      </div>
+      <ng-container *ngFor="let result of data">
+        <mat-card class="result" (click)="navigateToDetails(result)">
+          <mat-card-content>
+            {{result.title}}
+          </mat-card-content>
+        </mat-card>
+      </ng-container>
+    </mat-card-content>
+  </mat-card>
+</section>
+

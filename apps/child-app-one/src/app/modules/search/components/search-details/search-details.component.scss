@@ -1,0 +1,51 @@
+.search-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-card {
+  width: 45%;
+}
+
+.search-bar {
+  width: 75%;
+  padding: .75rem 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.result {
+  width: 100%;
+}
+
+.divider {
+  margin: 1rem 0;
+}
+
+.details-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.detail {
+  margin: .5rem;
+  padding: .5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+}

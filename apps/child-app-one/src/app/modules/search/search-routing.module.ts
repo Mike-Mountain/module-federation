@@ -5,7 +5,7 @@ import {SearchDetailsComponent} from "./components/search-details/search-details
 
 const routes: Routes = [
   {path: 'results/:searchType/:searchValue', component: SearchResultsComponent},
-  {path: 'details', component: SearchDetailsComponent}
+  {path: 'details/:searchValue', component: SearchDetailsComponent}
 ];
 
 @NgModule({

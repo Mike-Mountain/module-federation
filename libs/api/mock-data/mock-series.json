@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Agents of Shield",
+    "mediaType": "Series",
+    "platform": "DVD",
+    "year": 2014
+  },
+  {
+    "title": "Game of thrones",
+    "mediaType": "Series",
+    "platform": "DVD",
+    "year": 2017
+  },
+  {
+    "title": "Loki",
+    "mediaType": "Series",
+    "platform": "DVD",
+    "year": 2021
+  },
+  {
+    "title": "Wanda Vision",
+    "mediaType": "Series",
+    "platform": "DVD",
+    "year": 2021
+  },
+  {
+    "title": "The witcher",
+    "mediaType": "Series",
+    "platform": "DVD",
+    "year": 2020
+  },
+  {
+    "title": "Vikings",
+    "mediaType": "Series",
+    "platform": "DVD",
+    "year": 2014
+  }
+]

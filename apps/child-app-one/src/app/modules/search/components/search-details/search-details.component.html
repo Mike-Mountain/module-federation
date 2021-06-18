@@ -1,1 +1,14 @@
-<p>search-details works!</p>
+<section class="search-details-container">
+  <mat-card class="details-card">
+    <mat-card-content class="search-details">
+      <ng-container *ngIf="searchDetails | async as details">
+        <h2 class="title">{{details.title}}</h2>
+        <div class="details-grid">
+          <p class="detail">{{details.mediaType}}</p>
+          <p class="detail">{{details.platform}}</p>
+          <p class="detail">{{details.year}}</p>
+        </div>
+      </ng-container>
+    </mat-card-content>
+  </mat-card>
+</section>

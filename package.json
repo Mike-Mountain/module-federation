@@ -9,6 +9,7 @@
     "start": "ng serve",
     "dash:dev": "ng serve dashboard -c dev",
     "child-one:dev": "ng serve child-app-one -c dev",
+    "mock-server": "http-server libs/ --port=9000",
     "build": "ng build",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Marvel's Avengers",
+    "mediaType": "Movie",
+    "platform": "Cinema, DVD",
+    "year": 2012
+  },
+  {
+    "title": "Spider-man",
+    "mediaType": "Movie",
+    "platform": "Cinema, DVD",
+    "year": 2016
+  },
+  {
+    "title": "Spider-man 2",
+    "mediaType": "Movie",
+    "platform": "Cinema, DVD",
+    "year": 2018
+  },
+  {
+    "title": "Iron Man",
+    "mediaType": "Movie",
+    "platform": "Cinema, DVD",
+    "year": 2010
+  },
+  {
+    "title": "Black Panther",
+    "mediaType": "Movie",
+    "platform": "Cinema, DVD",
+    "year": 2019
+  },
+  {
+    "title": "Captain America",
+    "mediaType": "Movie",
+    "platform": "Cinema, DVD",
+    "year": 2011
+  }
+]

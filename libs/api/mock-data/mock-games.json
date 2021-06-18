@@ -1,0 +1,38 @@
+[
+  {
+    "title": "God of war",
+    "mediaType": "Game",
+    "platform": "PS4",
+    "year": 2018
+  },
+  {
+    "title": "Spider-man",
+    "mediaType": "Game",
+    "platform": "PS4",
+    "year": 2018
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "mediaType": "Game",
+    "platform": "PS4, PC",
+    "year": 2018
+  },
+  {
+    "title": "Returnal",
+    "mediaType": "Game",
+    "platform": "PS5",
+    "year": 2021
+  },
+  {
+    "title": "Rocket League",
+    "mediaType": "Game",
+    "platform": "PS4, PS5, Xbox, PC, Nintendo Switch",
+    "year": 2016
+  },
+  {
+    "title": "The witcher 3: Wild Hunt",
+    "mediaType": "Game",
+    "platform": "PS4, PC, Xbox",
+    "year": 2015
+  }
+]
