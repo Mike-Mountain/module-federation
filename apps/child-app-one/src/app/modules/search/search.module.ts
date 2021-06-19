@@ -8,12 +8,14 @@ import {MatCardModule} from "@angular/material/card";
 import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
 import {MatDividerModule} from "@angular/material/divider";
+import { SearchContainerComponent } from './components/search-container/search-container.component';
 
 
 @NgModule({
   declarations: [
     SearchResultsComponent,
-    SearchDetailsComponent
+    SearchDetailsComponent,
+    SearchContainerComponent
   ],
   imports: [
     CommonModule,
