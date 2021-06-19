@@ -22,11 +22,14 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
+        remotes: {
+            "childAppOne": "childAppOne@http://localhost:5000/remoteEntry.js",
+        },
         shared: {
-          "@angular/core": { singleton: true, strictVersion: true, requiredVersion: '12.0.0'  },
-          "@angular/common": { singleton: true, strictVersion: true, requiredVersion: '12.0.0'  },
-          "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: '12.0.0'  },
-          "@angular/router": { singleton: true, strictVersion: true, requiredVersion: '12.0.0'  },
+          "@angular/core": { singleton: true, strictVersion: true, requiredVersion: '12.0.5'  },
+          "@angular/common": { singleton: true, strictVersion: true, requiredVersion: '12.0.5'  },
+          "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: '12.0.5'  },
+          "@angular/router": { singleton: true, strictVersion: true, requiredVersion: '12.0.5'  },
 
           ...sharedMappings.getDescriptors()
         }

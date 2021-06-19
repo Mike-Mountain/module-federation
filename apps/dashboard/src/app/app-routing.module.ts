@@ -7,12 +7,7 @@ const routes: Route[] = [
   {path: 'landing', component: LandingComponent},
   {
     path: 'media',
-    loadChildren: () =>
-      loadRemoteModule({
-        remoteEntry: 'http://localhost:5000/remoteEntry.js',
-        remoteName: 'ChildAppOne',
-        exposedModule: './Module'
-      }).then(m => m.AppModule)
+    loadChildren: () => import('childAppOne/Module').then(m => m.AppModule)
   },
   {path: '', pathMatch: 'full', redirectTo: 'landing'}
 ];

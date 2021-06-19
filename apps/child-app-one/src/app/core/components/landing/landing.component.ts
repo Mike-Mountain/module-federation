@@ -30,6 +30,6 @@ export class LandingComponent implements OnInit {
   }
 
   search(searchValue: string | undefined) {
-    this.router.navigateByUrl(`search/results/${this.searchType}/${searchValue}`)
+    this.router.navigateByUrl(`media/search/results/${this.searchType}/${searchValue}`)
   }
 }

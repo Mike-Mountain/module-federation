@@ -42,11 +42,11 @@ export class SearchResultsComponent implements OnInit, OnDestroy {
   }
 
   search(searchValue: string | undefined) {
-    this.router.navigateByUrl(`search/results/${this.searchType}/${searchValue}`)
+    this.router.navigateByUrl(`media/search/results/${this.searchType}/${searchValue}`)
   }
 
   navigateToDetails(result: SearchResult) {
     this.searchService.setSelectedSearchResult(result);
-    this.router.navigateByUrl(`search/details/${result.title}`)
+    this.router.navigateByUrl(`media/search/details/${result.title}`)
   }
 }
