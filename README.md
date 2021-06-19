@@ -6,6 +6,12 @@ This project was generated using [Nx](https://nx.dev).
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
+## How to run this app:
+* Run the mock server with `npm run mock-server` (make sure http-server is installed)
+* Run the dashboard with `npm run dash:dev`
+* Run the child app with `npm run child-one:dev`
+* Navigate to `http://localhost:42000` to see the applications running
+
 🔎 **Smart, Extensible Build Framework**
 
 ## Quick Start & Documentation
